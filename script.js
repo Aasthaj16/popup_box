@@ -1,8 +1,7 @@
 $(document).ready(function () {
 
     var flag = false;
-
-
+    
     $('.clicks').on('click', function () {
         if (!flag) {
             flag = true;
@@ -12,7 +11,6 @@ $(document).ready(function () {
             flag = false
         }
     })
-
 
     $('.submission').on('click', function () {
         flag = false
